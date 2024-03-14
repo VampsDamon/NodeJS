@@ -1,0 +1,12 @@
+{
+  "name": "hellojs",
+  "version": "1.0.0",
+  "description": "1st lecture of Node JS NPM setup and Hello world",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
