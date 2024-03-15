@@ -72,7 +72,7 @@ app.route("/api/users/:id")
     const updatedUser=users.filter((user)=>user.id!==id)
 
     fs.writeFile("./MOCK_DATA.json",JSON.stringify(updatedUser),(err,data)=>{
-        if(err)  return res.json({ status: `Failed to delete the User`, id });
+        
         return res.json({status:`User deleted`,id})
     })
 
