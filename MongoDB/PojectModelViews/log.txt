@@ -1,0 +1,30 @@
+          
+ 1711004723798 : --> GET : --> /users/ : --> undefined
+            
+            
+ 1711004735531 : --> GET : --> /user/ : --> undefined
+            
+            
+ 1711004996245 : --> GET : --> /user/ : --> undefined
+            
+            
+ 1711005030043 : --> GET : --> /user/create : --> undefined
+            
+            
+ 1711005042895 : --> POST : --> /user/create : --> undefined
+            
+            
+ 1711005088181 : --> POST : --> /user/api : --> undefined
+            
+            
+ 1711005102586 : --> GET : --> /user/api : --> undefined
+            
+            
+ 1711005137921 : --> GET : --> /user/65f9e9ccef2f414fffd6bca8 : --> undefined
+            
+            
+ 1711005159638 : --> GET : --> /user/api/65f9e9ccef2f414fffd6bca8 : --> undefined
+            
+            
+ 1711005170954 : --> GET : --> /user/ : --> undefined
+            
