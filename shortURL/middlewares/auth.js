@@ -15,6 +15,18 @@ const restrictToUserLoginOnly=async(req,res,next)=>{
 
 }
 
+// async function autthenticate(){
+   
+// const userId = req.cookies?.uid;
+   
+
+//    const user = getUser(userId);
+
+
+//    req.user = user;
+
+   
+// }
 module.exports = {
   restrictToUserLoginOnly,
 };

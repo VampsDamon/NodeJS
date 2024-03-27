@@ -9,7 +9,9 @@ const port = 8001;
 
 const cookieParser=require("cookie-parser");
 const URL = require("./modules/url");
-const { restrictToUserLoginOnly } = require("./middlewares/auth");
+const {
+  restrictToUserLoginOnly,
+} = require("./middlewares/auth");
 MongoDBConnection("mongodb://127.0.0.1:27017/url-shortner")
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log("Error to connect to MongoDB : \n", err));

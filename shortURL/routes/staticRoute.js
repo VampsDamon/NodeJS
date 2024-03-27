@@ -4,7 +4,8 @@ const router=express.Router();
 
 
 router.get('/',async(req,res)=>{
-    const allUrls=await URL.find({});
+      if(!res.user) return res.render("login")
+    const allUrls=await URL.find({createdBy:req.user._id});
     return res.render("home", { urls:allUrls,  name: "Shahid" });
 })
 
